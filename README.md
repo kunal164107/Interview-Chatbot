@@ -20,7 +20,7 @@ First we need to prepare the dataset. We had prepared the dataset of question fo
 2. **Pre-Processing:**
   * Lowercase all the charcters and remove unwanted charcter like - or # or $ etc. 
   * Filter the dataset with max question length and max answer length Here we are use 20 for both qmax and amax.
-  * Tokenization and vectorization
+  * Tokenization and Vectorization
   * Add zero padding 
   * Split into train,validation,test data<br><br>
 3. **Creation of LSTM,Encoder and Decoder Model:**<br>
