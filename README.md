@@ -3,7 +3,7 @@
 An Interview Chatbot powered by Deep Learning and trained on dataset consisting of Interview Question(Computer Science Domain). 
 Built on TensorFlow v1.11.0 and tensorLayer v1.11.1 and Python v3.6 and Trained the model on NVIDIA DGX-1 V100.
 
-you can download the dataset from [here](https://drive.google.com/open?id=1WPY3HB3BlXD-Pflk-CbN60_rTQ8eMNlt).<br>
+You can download the dataset from [here](https://drive.google.com/open?id=1WPY3HB3BlXD-Pflk-CbN60_rTQ8eMNlt).
 Here is a sample chat transcript. Bot replies with "Out of Context Question " whenever user ask question from a different domain.<br>
 ![](Images/Capture.JPG)<br><br>
 Preety good response right!!
@@ -19,10 +19,10 @@ Step 4: Run the model **python app.py**<br>
 First we need to prepare the dataset. We had prepared the dataset of question for the subjects like Data Structures, Algorithms, Operating System. The dataset contain the question and answers of these subjects. The better the dataset, the more accurate and efficient conversational results can be obtained.<br><br>
 2. **Pre-Processing:**
   * Lowercase all the charcters and remove unwanted charcter like - or # or $ etc. 
-  * filter the dataset with max question length and max answer length Here we are use 20 for both qmax and amax.
+  * Filter the dataset with max question length and max answer length Here we are use 20 for both qmax and amax.
   * Tokenization and vectorization
   * Add zero padding 
-  * split into train,validation,test data
+  * Split into train,validation,test data
 3. **Creation of LSTM,Encoder and Decoder Model:**<br>
 LSTM are a special kind of RNN which are capable of learning long-term dependencies. Encoder-Decoder model contains two parts- encoder which takes the vector representation of input sequence and maps it to an encoded representation of the input. This is then used by decoder to generate output.<br>
 
