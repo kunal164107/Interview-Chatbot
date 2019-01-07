@@ -4,7 +4,7 @@ An Interview Chatbot powered by Deep Learning and trained on dataset consisting 
 Built on TensorFlow v1.11.0 and tensorLayer v1.11.1 and Python v3.6 and Trained the model on NVIDIA DGX-1 V100.
 
 you can download the dataset from [here](https://drive.google.com/open?id=1WPY3HB3BlXD-Pflk-CbN60_rTQ8eMNlt).<br>
-Here is a sample chat transcript. Bot replies with "Out of Context Question " whenever user ask question from a different domain.
+Here is a sample chat transcript. Bot replies with "Out of Context Question " whenever user ask question from a different domain.<br>
 ![](Images/Capture.JPG)<br><br>
 Preety good response right!!
 
