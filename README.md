@@ -22,16 +22,16 @@ First we need to prepare the dataset. We had prepared the dataset of question fo
   * Filter the dataset with max question length and max answer length Here we are use 20 for both qmax and amax.
   * Tokenization and vectorization
   * Add zero padding 
-  * Split into train,validation,test data
+  * Split into train,validation,test data<br><br>
 3. **Creation of LSTM,Encoder and Decoder Model:**<br>
-LSTM are a special kind of RNN which are capable of learning long-term dependencies. Encoder-Decoder model contains two parts- encoder which takes the vector representation of input sequence and maps it to an encoded representation of the input. This is then used by decoder to generate output.<br>
+LSTM are a special kind of RNN which are capable of learning long-term dependencies. Encoder-Decoder model contains two parts- encoder which takes the vector representation of input sequence and maps it to an encoded representation of the input. This is then used by decoder to generate output.<br><br>
 
-4.**Train and Save Model:**<br>
-We trained the model with 1000 epochs and batch size of 32, Learning rate-0.001, word embedding size was set to 1024, we took categorical cross entropy as our loss function and optimiser used was AdamOptimizer. We got the best results with these parameters. We trained and tested our model on NVIDIA DGX-1 V100. Training accuracy obtained was approximately 99% and validation accuracy of about 80%.<br>
+4. **Train and Save Model:**<br>
+We trained the model with 1000 epochs and batch size of 32, Learning rate-0.001, word embedding size was set to 1024, we took categorical cross entropy as our loss function and optimiser used was AdamOptimizer. We got the best results with these parameters. We trained and tested our model on NVIDIA DGX-1 V100. Training accuracy obtained was approximately 99% and validation accuracy of about 80%.<br><br>
 
-5.**Testing:**<br>
+5. **Testing:**<br>
 Finally the user can input questions or speak question by clicking Speak now button and bot will reply the answer of the Question. The results obtained are satisfactory according to review analysis.<br>
 
 The Project was done under the guidance of [Mr. Tejalal](https://github.com/tejalal) and Dr. Vipul Kumar Mishra<br><br>
 
-6.**Submitted By:** [Kunal Kumar](https://github.com/kunal164107), [Syed Muhamed Nihall](https://github.com/neoNihall/), Vvsmanideep, Pachipulusu Vamshi Krishna
+6. **Submitted By:** [Kunal Kumar](https://github.com/kunal164107), [Syed Muhamed Nihall](https://github.com/neoNihall/), Vvsmanideep, Pachipulusu Vamshi Krishna
