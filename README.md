@@ -15,7 +15,7 @@ Step 3: Train the model **python main.py --batch-size 32 --num-epochs 1000 -lr 0
 Step 4: Run the model **python app.py**<br>
 
 You Can install the trained model from [here](google.com)<br>
-# MethodLogy
+# MethodoLogy
 1. **Prepare the Dataset:**<br>
 First we need to prepare the dataset. We had prepared the dataset of question for the subjects like Data Structures, Algorithms, Operating System. The dataset contain the question and answers of these subjects. The better the dataset, the more accurate and efficient conversational results can be obtained.<br><br>
 2. **Pre-Processing:**
