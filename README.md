@@ -34,3 +34,5 @@ We trained the model with 1000 epochs and batch size of 32, Learning rate-0.001,
 Finally the user can input questions or speak question by clicking Speak now button and bot will reply the answer of the Question. The results obtained are satisfactory according to review analysis.<br>
 
 6. **Submitted By:** [Kunal Kumar](https://github.com/kunal164107), [Syed Muhamed Nihall](https://github.com/neoNihall/), [Vvsmanideep](https://github.com/manideepvvs356), Pachipulusu Vamshi Krishna.<br><br> The Project was done under the guidance of [Mr. Tejalal](https://github.com/tejalal) and Dr. Vipul Kumar Mishra<br><br>
+
+Thanks to [Suriyadeepan Ramamoorthy](https://github.com/suriyadeepan) for his [practical_seq2seq](https://github.com/suriyadeepan/practical_seq2seq) repo, which this repo is based on<br><br>
